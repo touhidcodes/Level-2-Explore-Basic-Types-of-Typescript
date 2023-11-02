@@ -31,6 +31,7 @@
   };
 
   const middleName = person?.name?.middleName ?? "Not Found";
+  console.log({ middleName });
   //  nullish coalescing operator
   //  null / undefined --> decision making
 
